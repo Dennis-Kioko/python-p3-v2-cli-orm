@@ -99,7 +99,6 @@ def create_employee():
 
 
 def update_employee():
-    def update_employee():
     id_ = input("Enter the employee's id: ")
     if employee := Employee.find_by_id(id_):
         try:
@@ -119,7 +118,6 @@ def update_employee():
 
 
 def delete_employee():
-    def delete_employee():
     id_ = input("Enter the employee's id: ")
     if employee := Employee.find_by_id(id_):
         employee.delete()
